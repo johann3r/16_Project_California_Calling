@@ -1,0 +1,116 @@
+@media screen and (max-width: 500px) {
+  header {
+    padding: 0px 24px 40px 24px;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    line-height: 1.5;
+  }
+
+  .facts-figures {
+    padding: 40px 24px;
+
+    img {
+      bottom: 150px;
+    }
+  }
+
+  .stuck-in-middle {
+    padding: 40px 24px;
+
+    .text-block {
+      margin-bottom: 40px;
+      h3 {
+        font-size: 2.75rem;
+        margin-bottom: 24px;
+      }
+      .p-medium {
+        font-size: 20px;
+        line-height: 2;
+      }
+    }
+  }
+
+  .the-bears-white {
+    padding: 40px 24px 0 24px;
+
+    .article-wrapper {
+      gap: 16px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .article-images-1 {
+    padding: 80px;
+    height: 400px;
+
+    img {
+      &:nth-of-type(2) {
+        top: 160px;
+      }
+    }
+  }
+
+  .article-animation {
+    height: 160px;
+
+    img {
+      margin-right: -100px;
+    }
+  }
+
+  .the-bears-black {
+    padding: 0px 40px 0 24px;
+
+    .article-wrapper {
+      gap: 16px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .article-images-2 {
+    padding: 40px;
+    height: 500px;
+  }
+
+  footer {
+    padding: 24px 24px 0px 24px;
+
+    article {
+      input:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+
+    .footer-nav {
+      padding-bottom: 16px;
+    }
+
+    .footer-animation {
+      position: relative;
+      right: 0px;
+      rotate: 0deg;
+      width: 500%;
+      animation-duration: 20s;
+
+      @keyframes typo-run {
+        0% {
+          transform: translateX(-380px);
+        }
+        50% {
+          transform: translateX(-1080px);
+        }
+        100% {
+          transform: translateX(-380px);
+        }
+      }
+    }
+  }
+}
